@@ -13,7 +13,7 @@ from prompts import SUMMARY_PROMPT, MCQ_PROMPT, QA_PROMPT, FLASHCARD_PROMPT, ELI
 
 # API Key load karo
 load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")s
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Groq LLM setup
 llm = ChatGroq(
